@@ -116,7 +116,9 @@ in the conversions and account_details table there are only converting users
 
 - 225 records where `fp_value` is null but `fp_timestamp` is not.  
 - 0 records where `fp_value` is not null but `fp_timestamp` is null.
-
+- **Sign up date range:** 2022-03-29	2022-11-13	
+- **First purchase date range:** 2022-04-15	2023-04-28
+  
 ### Distribution by Sign-Up Method
 
 | Row | sign_up_method | record_cnt |
@@ -126,6 +128,8 @@ in the conversions and account_details table there are only converting users
 | 3 | manual | 3,583 |
 
 Each account has **only one record**.
+
+
 
 ## Connection Between Tables
 
