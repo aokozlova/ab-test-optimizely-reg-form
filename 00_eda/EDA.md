@@ -59,7 +59,8 @@ in the conversions and account_details table there are only converting users
 | 4 | 25970160348 | 25991400310 | GXl4f... | xgY1c... | SwdM9... | 2022-11-10 | 2022-11-10 06:37:38.080000 UTC | other | firstPurchase |
 
 
-- Contains nulls in `account_id`.
+- Contains nulls in `user_account_id`.
+- Visitors with a null `user_account_id` have only `view_activated` event.
 - Data for only one experiment.
 - Record count distribution is approximately **50/50** between variations.
 - **5 duplicate rows** found with `view_activated` event.
